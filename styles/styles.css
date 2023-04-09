@@ -1,0 +1,16 @@
+html {
+  font-size: 10px;
+}
+
+footer {
+  height: 10rem;
+  background-color: #bbb;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  list-style: none;
+}
