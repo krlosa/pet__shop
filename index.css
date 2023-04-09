@@ -6,7 +6,8 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 2% 5% 0 5%;
+    margin: 2rem 5rem 0 5rem;
+    background: url(./assets/catioro.png);
 }
 
 .link {
