@@ -11,23 +11,48 @@ html {
 footer {
   padding: 3rem;
   background-color: #bbb;
-
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 80vw;
+  display: flex;
+  align-items: start;
   justify-content: space-evenly;
 
   font-size: 1.6rem;
+}
+
+.footer_info-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer_info-area picture {
+  padding: 1rem;
+}
+
+.footer_info-area--titulo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer_info-area--endereco {
+  font-size: 1.3rem;
+  font-style: normal;
+}
+
+.footer_info-area--telefone {
+  font-size: 1.3rem;
 }
 
 footer ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.footer_info-area {
-  display: flex;
-  flex-direction: column;
 }
 
 footer ul li {
