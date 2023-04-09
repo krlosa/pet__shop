@@ -3,11 +3,17 @@
     padding: 0;
 }
 
+.cabecalho {
+    height: 50vh;
+    background: url(./assets/catioro.jpg);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 2rem 5rem 0 5rem;
-    background: url(./assets/catioro.png);
+    
 }
 
 .link {
@@ -23,4 +29,11 @@
 .titulo {
     font-size: 45px;
     font-weight: bold;
+}
+
+.botao__compra {
+    border: solid 2px;
+    border-radius: 5px;
+    width: 500%;
+
 }
